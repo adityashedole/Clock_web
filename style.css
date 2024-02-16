@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif ;
+}
+ 
+.mdiv{
+    height: 100vh;
+    width: 100%;
+     background-image: url("https://user-images.githubusercontent.com/74038190/219923823-bf1ce878-c6b8-4faa-be07-93e6b1006521.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper{
+    height: 114px;
+    width: 380px;
+    background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+    border-radius: 10px;
+    margin-bottom: 455px; 
+    margin-right: -700px;
+    cursor: default;
+    animation: animate 1.5s linear infinite;
+}
+.wrapper .display{
+    position: absolute;
+    /* opacity: 0; */
+    top: 76px;
+    left: 1147px;
+    transform: translate(-50%, -50%);
+    background: white;
+    height: 105px;
+    width: 370px;
+    text-align: center;
+    border-radius: 15px;
+   
+}
+.wrapper .display #time{
+    line-height: 85px;
+    font-family: arial black;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    letter-spacing: 4px;
+    background: linear-gradient(135deg, #a20afa, #681a73, black, #0b04c9 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 1.5s linear infinite;
+}
+.code{
+    position: relative  ;
+    top: 95px;
+    left: 110px;
+    /* font-variant: small-caps; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: #524b57;
+    letter-spacing: 2px;
+}
+.code:hover{
+    color: rgb(39, 7, 32);
+    cursor: pointer;
+    transform: scale(0.95);
+}
+.coder_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    top: 158px;
+    right: 353px;
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+    font-variant: small-caps;
+    font-weight: 500;
+    line-height: 18px;
+    box-shadow: 0px 0px 20px 1px #0a79f0;
+    letter-spacing: 1.6px;
+}
+.coder_logo:hover{
+    font-weight: 400px;
+    cursor: pointer;
+    transform: scale(0.96);
+    box-shadow: 0px 0px 17px 2px orangered;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
